@@ -4,8 +4,6 @@ import { Button } from "@/components/ui/button";
 import { authClient } from "@/lib/auth-client";
 import { useRouter } from "next/navigation";
 
-
-
 export default function Home() {
 
   const router = useRouter()
@@ -21,6 +19,9 @@ export default function Home() {
   }
 
   return (
-    <Button onClick={clickHandler}>Sign out</Button>
+    <div className="h-screen">
+      <Button onClick={clickHandler}>Sign out</Button>
+
+    </div>
   );
 }
