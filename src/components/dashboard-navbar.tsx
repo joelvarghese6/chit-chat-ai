@@ -3,7 +3,7 @@
 import { PanelLeftCloseIcon, PanelLeftIcon, SearchIcon } from "lucide-react";
 import { Button } from "./ui/button";
 import { useSidebar } from "./ui/sidebar";
-import { DashboardCommand } from "./dashboard-command";
+import { DashboardCommand } from "@/modules/dashboard/ui/components/dashboard-command";
 import { useEffect, useState } from "react";
 
 export const DashboardNavbar = () => {
