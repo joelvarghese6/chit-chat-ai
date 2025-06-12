@@ -56,7 +56,7 @@ export const DashboardUserButton = () => {
                             Billing
                         </Button>
                         <Button variant="outline">
-                        <LogOutIcon className="size-4" />
+                        <LogOutIcon className="size-4" onClick={onLogout} />
                         Logout
                         </Button>
                     </DrawerFooter>
