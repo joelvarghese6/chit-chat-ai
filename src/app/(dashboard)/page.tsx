@@ -2,6 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { authClient } from "@/lib/auth-client";
+import { HomeView } from "@/modules/home/ui/views/home-view";
 import { useRouter } from "next/navigation";
 
 export default function Home() {
@@ -20,8 +21,7 @@ export default function Home() {
 
   return (
     <div className="h-screen">
-      <Button onClick={clickHandler}>Sign out</Button>
-
+      <HomeView />
     </div>
   );
 }
